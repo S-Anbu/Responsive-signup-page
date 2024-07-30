@@ -157,6 +157,11 @@ a{
         margin-left: 40px;
     }
 }
+@media (min-width: 1200px) {
+    form{
+        margin-left: 40px;
+    }
+}
 @media (max-width: 768px) {
     #bg-content {
         max-width: 500px;  
