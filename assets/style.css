@@ -95,13 +95,14 @@ form input{
 
 
 /* checkbox */
+.checkbox{
+    font-size: small;
+}
 #checkbox{
     display: inline-block;
     margin-top: 15px;
 }
-span{
-    font-size: small;
-}
+
 .terms{
     font-size: small;
     color: #00d5ff;
@@ -188,7 +189,7 @@ a{
         max-width: 200px;
     }
     h1{
-        font-size: x-large;
+        font-size:16px;
         align-items: center;
     }
     form > input,label{
@@ -212,6 +213,15 @@ a{
     }
     form{
         padding: 0;
+    }
+    .checkbox{
+        font-size: 10px;
+    }
+    #checkbox{
+        display: inline;
+        width: 10px;
+        align-content: center;
+        margin-bottom: 0;
     }
   
 
